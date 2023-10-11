@@ -33,7 +33,7 @@ function paintGreetings(username){
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
-const savedUsername = localStorage.getItem("USERNAME_KEY");
+const savedUsername = localStorage.getItem(USERNAME_KEY);
 // console.log(savedUSERNAME_KEY);
 
 if( savedUsername === null){
