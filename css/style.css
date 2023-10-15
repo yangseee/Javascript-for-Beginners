@@ -1,3 +1,8 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 .hidden {
   display: none;
 }
@@ -15,7 +20,11 @@ img {
 }
 
 #clock {
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 100vh;
+  font-size: 15vh;
+  position: absolute;
 }
 
 #greeting {
